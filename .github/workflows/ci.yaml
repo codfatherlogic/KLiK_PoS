@@ -21,6 +21,7 @@ jobs:
       app: klik_pos
       frappe_versions: '["version-15"]'
       draft_frappe_versions: '["version-15"]'
+      runs_on: '"ubuntu-latest"'
 
   pre-commit:
     runs-on: ubuntu-latest
